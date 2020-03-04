@@ -1,0 +1,111 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+@import '~vuetify/dist/vuetify.min.css';
+
+.page {
+	/*position: fixed;*/
+	width: 100%;
+	margin: -20px 0px;
+}
+
+.application--wrap {
+    display:block !important;
+}
+
+input#dateNotifyEmail {
+    width: 200px;
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+input#dateNotifyEmail::placeholder { /* Firefox, Chrome, Opera */
+    color: white;
+}
+
+input#dateNotifyEmail:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+}
+
+input#dateNotifyEmail::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}
+
+input#weeks {
+    width: 60px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+input#weeks::placeholder { /* Firefox, Chrome, Opera */
+    color: white;
+}
+
+input#weeks:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+}
+
+input#weeks::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}
+
+input#days {
+    width: 60px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+input#days::placeholder { /* Firefox, Chrome, Opera */
+    color: white;
+}
+
+input#days:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+}
+
+input#days::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}
+
+input#userEmail {
+    width: 150px;
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 2px solid #1976d2;
+    font-size: 12px;
+    border-radius: 5px;
+    float: right;
+}
+
+input#userPassword {
+    width: 150px;
+    height: 30px;
+    margin-left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 2px solid #1976d2;
+    font-size: 12px;
+    border-radius: 5px;
+    float: right;
+}
+
+#btn_login {
+    font-size: 14px;
+    margin: 0px 10px;
+    width: 120px;
+    height: 30px;
+    float: right;
+}
